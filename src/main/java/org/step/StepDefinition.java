@@ -90,6 +90,7 @@ public class StepDefinition {
 
 		Assert.assertTrue(driver.findElement(By.cssSelector("div[class^=alert]")).isDisplayed());
 		
+		driver.quit();
 	}
 
 

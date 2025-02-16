@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-02-16T05:38:41.576Z",
+        "line": 3,
+        "name": "Verify with valid and invalid credentials",
+        "description": "",
+        "id": "verify-the-login-functionality-of-tutorial-ninja;verify-with-valid-and-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7813399800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open the Application URL in any supported browser",
+            "match": {
+              "location": "StepDefinition.i_Open_the_Application_URL_in_any_supported_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8809496500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username and password",
+            "match": {
+              "location": "StepDefinition.i_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 916101100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify that user should not login",
+            "match": {
+              "location": "StepDefinition.verify_that_user_should_not_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the login functionality of Tutorial ninja",
+    "description": "",
+    "id": "verify-the-login-functionality-of-tutorial-ninja",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature.feature",
+    "tags": []
+  }
+]
